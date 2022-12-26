@@ -5,7 +5,7 @@ const config: Config.InitialOptions = {
   coverageThreshold: {
     "global": {
       "branches": 80,
-      "functions": 80,
+      "functions": 81,
       "lines": 80,
       "statements": 80
     }
