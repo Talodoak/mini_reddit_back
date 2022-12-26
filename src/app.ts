@@ -4,7 +4,7 @@ import * as sourceMapSupport from 'source-map-support';
 
 sourceMapSupport.install(); // This needed to display correct line for the exception in .ts file (not .js)
 
-import { PqSQL, Redis } from './storage/index';
+import { PqSQL, Redis } from './storage';
 import express from 'express';
 import http, { Server } from 'http';
 import { MAIN as AppMainConfig } from './configs/app';

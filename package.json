@@ -13,7 +13,7 @@
     "dev": "tsc-watch --onSuccess \" node dist/src/\"",
     "prod": "NODE_ENV=production tsc && NODE_ENV=production node dist/src/",
     "doc": "typedoc --out docs src",
-    "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
+    "lint": "eslint \\\"src/**/*.{ts,tsx}\\\" --fix",
     "tests:dev": "jest ",
     "tests": "jest --watchAll --testPathPattern=tests --coverage --runInBand",
     "tests:ci": "jest --watchman --testPathPattern=tests"
